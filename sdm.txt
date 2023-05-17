@@ -15,5 +15,5 @@ sudo docker logs mysqlsvr
 
 look for [Entrypoint] GENERATED ROOT PASSWORD-->> LkpM559bu:O/4psF8y4+8%gK8,U_R++y
 SAVE IT FOR FUTURE REFERENCE
-sudo docker -it mysqlsvr bash
+sudo docker exec -it mysqlsvr bash
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'root123';
